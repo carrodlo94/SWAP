@@ -41,4 +41,5 @@ iptables -A OUTPUT -o eth0 -p tcp -m multiport --sports 22,80,443 -m state --sta
 ```
 Por último comprobamos que todo funciona correctamente mediante la orden curl:
 
-<img src="https://github.com/luisgm420/SWAP/blob/master/Practicas/practica4/funcionamiento_cortafuegos.png">*Captura funcionamiento cortafuegos*
+<img src="https://github.com/carrodlo94/SWAP/blob/master/practica4/Captura%20de%20pantalla%202017-05-04%20a%20las%2012.09.32.png">*Captura funcionamiento cortafuegos*
+<img src="https://github.com/carrodlo94/SWAP/blob/master/practica4/Captura%20de%20pantalla%202017-05-04%20a%20las%2012.13.45.png">*Captura certificado SSL*
